@@ -1,63 +1,109 @@
 #mainHeaderDiv {
-    display: flex;
-    flex-direction:row-reverse;
-    padding:0px 30px; 
-    background-color: #1F2937;
-    
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 0px 30px;
+  background-color: #1f2937;
 }
 
 h3 {
-    margin-top: 50px;
-    font-size: 48px;
-    font-weight: bold;
-    color: #F9FAF8
+  margin-top: 50px;
+  font-size: 48px;
+  font-weight: bold;
+  color: #f9faf8;
 }
 
 .rightContainer,
 .leftContainer {
-  flex: 1; /* Make each child div take up half the available space */
+  flex: 1;
 }
 
 .rightContainer header ul {
-display: flex;
-gap: 20px;
-margin-left: 30px;
-padding-top: 10px;
+  display: flex;
+  gap: 20px;
+  margin-left: 30px;
+  padding-top: 10px;
 }
 
 li {
-    list-style-type: none;
-    font-size: 18px;
-    color: #E5E7EB;
+  list-style-type: none;
+  font-size: 18px;
+  color: #e5e7eb;
 }
 
 .imageDiv {
-    margin-top: 70px;
-    margin-left: 30px;
+  margin-top: 70px;
+  margin-left: 30px;
 }
 
 .imageDiv img {
-    width : 300px;
-    height: 300px;
+  width: 300px;
+  height: 300px;
 }
 
 .leftContainer p {
-    width: 300px;
-
+  width: 300px;
 }
 
 .leftContainer h2 {
-    color: #F9FAF8;
+  color: #f9faf8;
 }
 .leftContainer p {
-    font-size: 18px;
-    color: #E5E7EB;
+  font-size: 18px;
+  color: #e5e7eb;
 }
 
 button {
-    border-radius: 30px;
-    width: 170px;
-    height: 50px;
-    color: white;
-    background-color: blue;
+  border-radius: 30px;
+  width: 170px;
+  height: 50px;
+  color: white;
+  background-color: rgb(29, 145, 217);
 }
+
+.randTextDiv {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+h4 {
+  text-align: center;
+  font-size: 70px;
+  color: #1f2937;
+}
+
+.randTextDiv .imgDiv {
+  width: 160px;
+  height: 160px;
+  border: 5px solid aqua;
+  border-radius: 30px;
+}
+
+.centerDiv p {
+  width: 160px;
+  text-align: center;
+}
+
+.mainThor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    background-color: rgb(172, 154, 154);
+    height: 300px;
+  }
+  
+  .thor {
+    text-align: center;
+    width: 700px;
+  }
+  .thor p{
+    font-size : 18px;
+  }
+
+  .textThor {
+    margin-left: 500px;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
