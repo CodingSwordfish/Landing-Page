@@ -85,68 +85,67 @@ h4 {
 }
 
 .mainThor {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 40px;
-    background-color: rgb(172, 154, 154);
-    height: 300px;
-  }
-  
-  .thor {
-    text-align: center;
-    width: 700px;
-  }
-  .thor p{
-    font-size : 18px;
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  background-color: rgb(172, 154, 154);
+  height: 300px;
+}
 
-  .textThor {
-    margin-left: 500px;
-    font-size: 30px;
-    font-weight: bold;
-  }
+.thor {
+  text-align: center;
+  width: 700px;
+}
+.thor p {
+  font-size: 18px;
+}
 
-  .signUp {
-    display: flex;
-    background-color: rgb(28, 141, 222);
-    width : 1000px;
-    margin: 0 auto;
-    margin-top: 50px;
-    padding: 35px 70px;
-    border-radius: 20px;
-  }
+.textThor {
+  margin-left: 500px;
+  font-size: 30px;
+  font-weight: bold;
+}
 
-  .signButton {
-    margin-left: 330px;
-    margin-top: 70px;
-    border : 1px solid white;
-    border-radius: 20px;
-  }
+.signUp {
+  display: flex;
+  background-color: rgb(28, 141, 222);
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 35px 70px;
+  border-radius: 20px;
+}
 
-  h5 {
-    color: white;
-    font-size: 30px;
-    font-weight: bold;
-  }
+.signButton {
+  margin-left: 330px;
+  margin-top: 70px;
+  border: 3px solid white;
+  border-radius: 20px;
+  font-weight: bold;
+}
 
-  .signUp p {
-    color : white;
-    font-size: 20px;
-  }
+h5 {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+}
 
-  footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-    background-color: #1f2937;
-    height: 120px; 
-    margin-top: 40px;
-  }
-  footer p{
-    text-align: center;
-    color: white;
-    font-size: 30px;
-  }
-  
+.signUp p {
+  color: white;
+  font-size: 20px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f2937;
+  height: 120px;
+  margin-top: 40px;
+}
+footer p {
+  text-align: center;
+  color: white;
+  font-size: 30px;
+}
